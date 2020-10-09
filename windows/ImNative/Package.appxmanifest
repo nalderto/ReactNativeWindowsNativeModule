@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="53b090d6-4120-4ff5-a213-dd73c2746943"
+    Name="2dc7869e-0e98-4ee4-9589-702434823a03"
     Publisher="CN=Noah Alderton"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="53b090d6-4120-4ff5-a213-dd73c2746943" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="2dc7869e-0e98-4ee4-9589-702434823a03" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ImNative</DisplayName>

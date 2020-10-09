@@ -8,9 +8,11 @@ using namespace winrt::Microsoft::ReactNative;
 namespace winrt::ImNative::implementation
 {
 
-    void ReactPackageProvider::CreatePackage(IReactPackageBuilder const& packageBuilder) noexcept
-    {
-        AddAttributedModules(packageBuilder);
-    }
+void ReactPackageProvider::CreatePackage(IReactPackageBuilder const &packageBuilder) noexcept
+{
+    AddAttributedModules(packageBuilder);
+}
 
-} // namespace winrt::GuessNum::implementation
+} // namespace winrt::ImNative::implementation
+
+

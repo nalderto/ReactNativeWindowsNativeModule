@@ -19,7 +19,6 @@
     <ClInclude Include="ReactPackageProvider.h" />
     <ClInclude Include="AutolinkedNativeModules.g.h" />
     <ClInclude Include="NativeMath.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-master\imconfig.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Wide310x150Logo.scale-200.png">

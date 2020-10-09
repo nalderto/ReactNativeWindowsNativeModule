@@ -1,10 +1,10 @@
 #include "pch.h"
 
 #include "App.h"
-#include "ReactPackageProvider.h"
 
 #include "AutolinkedNativeModules.g.h"
-#include "winrt/ImNative.h"
+#include "ReactPackageProvider.h"
+
 
 using namespace winrt::ImNative;
 using namespace winrt::ImNative::implementation;
@@ -40,6 +40,7 @@ App::App() noexcept
     RegisterAutolinkedNativeModulePackages(PackageProviders()); // Includes any autolinked modules
 
     PackageProviders().Append(make<ReactPackageProvider>()); // Includes all modules in this project
+
     InitializeComponent();
 }
 
